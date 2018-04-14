@@ -1,0 +1,82 @@
+
+
+@font-face{
+    font-family: GothamPro-Light;
+    src: url(fonts/GothamPro-Light.ttf);
+}
+@font-face {
+    font-family: GothamProBold;/* Имя шрифта */
+src: url(fonts/9781.otf); /* Путь к файлу со шрифтом */
+    font-weight: bold;
+   }
+
+
+@font-face {
+    font-family: GothamProMed; /* Имя шрифта */
+    src: url(fonts/11031.ttf); /* Путь к файлу со шрифтом */
+   }
+
+@font-face {
+    font-family: GothamPro; /* Имя шрифта */
+    src: url(fonts/10178.otf); /* Путь к файлу со шрифтом */
+   }
+html, body, ul{
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+    background-color: aquamarine;
+}
+
+.menu-item {
+    list-style-type: none;
+    display: inline;
+    margin-left: 35px;
+}
+
+.menu-item:hover {
+    color: #ffaa57;
+}
+
+.banner {
+    color: #ffffff;
+    background-image: url("images/baner.jpg");
+    background-size: cover;
+}
+
+.banner-header {
+    background-color: #ffaa57;
+}
+.banner-title {
+    font-size: 10px;
+}
+
+.banner-subtitle {
+    font-size: 25px;
+}
+
+.banner-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.industry {
+    width: 50%;
+    background-color: #00b3e6;
+    padding: 40px 20px 25px 40px;
+}
+
+.industry:hover {
+    background-color: #00a5d3;
+
+}
+
+.industry-title {
+    display: inline;
+    padding-top: 10px;
+
+}
+.circleandarrow-img {
+    float: right;
+}
