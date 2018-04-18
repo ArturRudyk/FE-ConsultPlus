@@ -1,25 +1,4 @@
 
-
-@font-face{
-    font-family: GothamPro-Light;
-    src: url(fonts/GothamPro-Light.ttf);
-}
-@font-face {
-    font-family: GothamProBold;/* Имя шрифта */
-src: url(fonts/9781.otf); /* Путь к файлу со шрифтом */
-    font-weight: bold;
-   }
-
-
-@font-face {
-    font-family: GothamProMed; /* Имя шрифта */
-    src: url(fonts/11031.ttf); /* Путь к файлу со шрифтом */
-   }
-
-@font-face {
-    font-family: GothamPro; /* Имя шрифта */
-    src: url(fonts/10178.otf); /* Путь к файлу со шрифтом */
-   }
 html, body, ul{
 	margin: 0;
 	padding: 0;
@@ -43,8 +22,18 @@ html, body, ul{
     color: #ffffff;
     background-image: url("images/baner.jpg");
     background-size: cover;
+    height: 100vh;
 }
 
+.services {
+    opacity: 0.7;
+}
+
+@media (min-width: 768px) {
+    .services {
+        opacity: 1;
+    }
+}
 .banner-header {
     background-color: #ffaa57;
 }
