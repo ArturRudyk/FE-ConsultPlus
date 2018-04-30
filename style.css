@@ -4,10 +4,28 @@ html, body, ul{
 	padding: 0;
 }
 
-.header {
-    background-color: aquamarine;
+.header-phones {
+    background-color: #2c2c2e;
+    color: #ffffff;
+    padding: 10px 0px;
 }
 
+.header-email {
+    color: #727677;
+}
+
+.header-phone {
+    color: #a3a3a6;
+}
+
+.header {
+    background-color: #ffffff;
+    padding: 30px 0px;
+}
+
+.menu {
+    margin: 0px;
+}
 .menu-item {
     list-style-type: none;
     display: inline;
@@ -20,9 +38,19 @@ html, body, ul{
 
 .banner {
     color: #ffffff;
-    background-image: url("images/baner.jpg");
     background-size: cover;
     height: 100vh;
+    background-position: 50% 0%;
+    min-height: 600px;
+    position: relative;
+}
+
+.banner .container {
+    height: 100%;
+}
+
+.banner .container .row {
+    height: 100%;
 }
 
 .services {
