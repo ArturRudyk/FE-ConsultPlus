@@ -9,6 +9,10 @@ html, body, ul{
 
 }
 
+.content-section {
+    padding: 95px 0;
+}
+
 .header-phones {
     background-color: #2c2c2e;
     color: #ffffff;
@@ -145,7 +149,6 @@ html, body, ul{
 }
 
 .about-us {
-    padding: 95px 0;
     text-align: right;
 }
 
@@ -162,6 +165,10 @@ html, body, ul{
     font-weight: 700;
 }
 
+.about-us-text {
+    color: #828a8d;
+    font-family: 'Domine', serif;
+}
 .about-us-image {
     height: 255px;
     position: relative;
@@ -214,3 +221,32 @@ html, body, ul{
     width: 100%;
 }
 
+.steps {
+    background-color: #e6eef1;
+}
+
+.step-image {
+    margin-bottom: 30px;
+}
+
+.step-number {
+    color: #00ee26;
+    font-size: 20px;
+    line-height: 1;
+    margin-bottom: 18px;
+}
+
+.step-title {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1;
+    margin-bottom: 35px;
+}
+
+.step-text {
+    font-size: 15px;
+    color: #828a8d;
+    font-family: 'Domine', serif;
+    line-height: 2;
+}
