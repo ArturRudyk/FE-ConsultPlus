@@ -1,5 +1,5 @@
 
-html, body, ul{
+html, body, ul, p{
 	margin: 0;
 	padding: 0;
 }
@@ -13,6 +13,34 @@ html, body, ul{
     padding: 95px 0;
 }
 
+.headline {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #898d8e;
+    line-height: 1;
+    margin-bottom: 30px;
+}
+
+.headline-pre {
+    margin: 0px;
+}
+.headline-bold {
+    font-size: 24px;
+    color: #000000;
+    margin: 6px 0px 0px 0px;
+}
+
+.inline {
+    display: inline;
+}
+.green-text {
+    color: #00ee26;
+}
+
+.white-text {
+    color: #ffffff;;
+}
 .header-phones {
     background-color: #2c2c2e;
     color: #ffffff;
@@ -152,22 +180,11 @@ html, body, ul{
     text-align: right;
 }
 
-.about-us-title {
-    font-size: 14px;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #898d8e;
-}
-
-.about-us-subtitle {
-    font-size: 24px;
-    text-transform: uppercase;
-    font-weight: 700;
-}
-
-.about-us-text {
+.text {
     color: #828a8d;
     font-family: 'Domine', serif;
+    font-size: 15px;
+    line-height: 2;
 }
 .about-us-image {
     height: 255px;
@@ -253,7 +270,7 @@ html, body, ul{
 
 .projects {
     /*height: 100vh;*/
-    background-color: black;
+    background-color: #ffffff;
 }
 
 .projects-row {
@@ -263,13 +280,90 @@ html, body, ul{
 .projects-subrow {
     height: calc(50% - 15px);
 }
+
+.space-row {
+    height: 30px;
+}
+
 .project-wrapper {
     width: 100%;
     height: 100%;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
 }
 
-.project-image {
+.project-wrapper:hover .project-item{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
+
+.project-title {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border: 2px solid #ffb441;
+    text-transform: uppercase;
+    padding: 5px 20px;
+    font-size: 14px;
+    border-radius: 50px;
+    font-weight: 700;
+}
+
+.project-item {
+    height: 100%;
+    width: 100%;
+    background-color: #00a5d3;
+    opacity: 0.8;
+    display: none;
+    padding: 15px;
+
+}
+
+.project-heading {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+.project-text{
+    font-family: 'Domine', serif;
+    font-size: 15px;
+
+}
+
+.blog {
+    background-color: #e6eef1;
+    position: relative;
+}
+
+.blog-image-wrapper {
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.news-button {
+    display: inline;
+    border: 2px solid #ffb441;
+    text-transform: uppercase;
+    padding: 5px 20px;
+    font-size: 14px;
+    border-radius: 50px;
+    float: right;
+}
+
+.green-text {
+    color: #00ee26;
+}
+
